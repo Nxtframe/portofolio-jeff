@@ -1,0 +1,28 @@
+.title {
+    font-size: 1.5em;
+    color: rgb(16, 40, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.subtitle {
+    display: block; 
+  }
+.header {
+    text-transform: uppercase;
+}
+
+.container {
+    background: linear-gradient(90deg, aquamarine 67%, #ccf381 33%);
+
+}
+
+@media (max-width: 768px) {
+    .container {
+      background: aquamarine;
+    }
+  }
+
