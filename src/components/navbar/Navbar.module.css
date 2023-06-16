@@ -13,6 +13,11 @@
     padding: 1em;
     text-transform: uppercase;
     font-size: 14px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbaritem:hover {
+    transform: scale(1.2);
   }
   
   .hamburger {
@@ -89,6 +94,41 @@
     }
   }
   
+  
   .fadeIn {
     animation: fadeIn 0.3s ease-in-out;
   }
+
+  .closeIcon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  .toggleIcon {
+    transition: transform 0.3s ease-in-out;
+    animation: unrotateIcon 0.3s ease-in-out;
+  }
+  
+  .rotate {
+    animation: rotateIcon 0.3s ease-in-out;
+  }
+  
+  @keyframes rotateIcon {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(90deg);
+    }
+  }
+
+  @keyframes unrotateIcon {
+    from {
+      transform: rotate(90deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  
