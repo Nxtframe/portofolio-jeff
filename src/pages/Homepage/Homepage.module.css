@@ -17,7 +17,7 @@
 
 .container {
     background: linear-gradient(90deg, aquamarine 67%, #ccf381 33%);
-
+    overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -26,3 +26,62 @@
     }
   }
 
+  @media (max-width: 768px) {
+    .shapes{
+      display: none;
+    }
+  }
+
+
+  
+.shapes {
+  position: absolute;
+  width:100px;
+  height:100px;
+  left: 85%;
+  top: 20%;
+}
+
+
+.shapes:nth-child(2)
+{
+  top: 30%;
+  left: 90%;
+
+}
+.shapes:nth-child(3)
+{
+  top: 40%;
+  left: 85%;
+  
+}
+.shapes:nth-child(4)
+{
+  top: 30%;
+  left: 80%;
+
+}
+
+.shapescircle {
+  fill: #5950d5d0;
+}
+
+.profileimage {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  left: 85%;
+  top: 30%;
+}
+
+
+
+@media (max-width: 768px) {
+  .profileimage {
+    left: 40%;
+ 
+    top: 25%;
+  }
+}

@@ -2,6 +2,8 @@ import './App.css'
 import Navbar from './components/navbar/navbar'
 import './App.css'
 import Homepage from './pages/Homepage/Homepage'
+import StarsField from './components/background/stars'
+
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
 
     <Navbar></Navbar>
     <Homepage />
+    <StarsField></StarsField>
     </div>
   )
 }

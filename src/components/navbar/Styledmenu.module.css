@@ -1,0 +1,39 @@
+.buttoncontainer{
+ 
+}
+
+.buttoncontainer .linebutton {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: aliceblue;
+    margin: 0.30em;
+    border-radius: 1em;
+    transition: all 0.3s linear;
+    transform-origin: 3px;
+}
+
+  
+  .buttoncontainer .linebutton:nth-child(1) {
+    transform: rotate(0);
+  }
+  
+  .buttoncontainer .linebutton:nth-child(2) {
+    transform:translateX(0);
+  }
+  
+  .buttoncontainer .linebutton:nth-child(3) {
+    transform: rotate(0);
+  }
+
+  .linebutton1after {
+    transform: rotate(45deg) !important;
+  }
+
+  .linebutton2after {
+    opacity: 0 !important;;
+    transform: translateX(20px) !important;
+  }
+  
+  .linebutton3after {
+    transform: rotate(-45deg) !important;
+  }
